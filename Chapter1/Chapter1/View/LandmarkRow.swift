@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-let landmarks: [Landmark] = load("landmarkData.json")
-
 struct LandmarkRow: View {
     
     var landmark: Landmark
@@ -30,7 +28,8 @@ struct LandmarkRow: View {
 }
 
 #Preview {
-    Group {
+    let landmarks = ModelData().landmarks
+    return Group {
         LandmarkRow(landmark: landmarks[0])
         LandmarkRow(landmark: landmarks[1])
     }

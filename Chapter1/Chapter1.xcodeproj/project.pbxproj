@@ -67,9 +67,9 @@
 		2CAB5B4F2C3E980200B3AADC /* Chapter1 */ = {
 			isa = PBXGroup;
 			children = (
+				2CAB5B502C3E980200B3AADC /* Chapter1App.swift */,
 				2CAB5B662C3E9F7900B3AADC /* Models */,
 				2CAB5B632C3E9EEB00B3AADC /* Resources */,
-				2CAB5B502C3E980200B3AADC /* Chapter1App.swift */,
 				2CAB5B5E2C3E9AF000B3AADC /* View */,
 				2CAB5B542C3E980500B3AADC /* Assets.xcassets */,
 				2CAB5B562C3E980500B3AADC /* Preview Content */,
