@@ -14,6 +14,7 @@
 		2CAB5B602C3E9B0C00B3AADC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB5B5F2C3E9B0C00B3AADC /* CircleImage.swift */; };
 		2CAB5B622C3E9C6F00B3AADC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB5B612C3E9C6F00B3AADC /* MapView.swift */; };
 		2CAB5B652C3E9F0300B3AADC /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB5B642C3E9F0300B3AADC /* landmarkData.json */; };
+		2CAB5B682C3E9F8700B3AADC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB5B672C3E9F8700B3AADC /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2CAB5B5F2C3E9B0C00B3AADC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2CAB5B612C3E9C6F00B3AADC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2CAB5B642C3E9F0300B3AADC /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		2CAB5B672C3E9F8700B3AADC /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		2CAB5B4F2C3E980200B3AADC /* Chapter1 */ = {
 			isa = PBXGroup;
 			children = (
+				2CAB5B662C3E9F7900B3AADC /* Models */,
 				2CAB5B632C3E9EEB00B3AADC /* Resources */,
 				2CAB5B502C3E980200B3AADC /* Chapter1App.swift */,
 				2CAB5B5E2C3E9AF000B3AADC /* View */,
@@ -90,6 +93,14 @@
 				2CAB5B642C3E9F0300B3AADC /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CAB5B662C3E9F7900B3AADC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB5B672C3E9F8700B3AADC /* Landmark.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				2CAB5B622C3E9C6F00B3AADC /* MapView.swift in Sources */,
 				2CAB5B512C3E980200B3AADC /* Chapter1App.swift in Sources */,
 				2CAB5B602C3E9B0C00B3AADC /* CircleImage.swift in Sources */,
+				2CAB5B682C3E9F8700B3AADC /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
