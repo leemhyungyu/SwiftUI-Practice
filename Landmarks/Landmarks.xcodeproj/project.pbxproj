@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CAB5B512C3E980200B3AADC /* Chapter1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB5B502C3E980200B3AADC /* Chapter1App.swift */; };
+		2CAB5B512C3E980200B3AADC /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB5B502C3E980200B3AADC /* LandmarksApp.swift */; };
 		2CAB5B532C3E980200B3AADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB5B522C3E980200B3AADC /* ContentView.swift */; };
 		2CAB5B552C3E980500B3AADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB5B542C3E980500B3AADC /* Assets.xcassets */; };
 		2CAB5B582C3E980500B3AADC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB5B572C3E980500B3AADC /* Preview Assets.xcassets */; };
@@ -22,8 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CAB5B4D2C3E980200B3AADC /* Chapter1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CAB5B502C3E980200B3AADC /* Chapter1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1App.swift; sourceTree = "<group>"; };
+		2CAB5B4D2C3E980200B3AADC /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAB5B502C3E980200B3AADC /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		2CAB5B522C3E980200B3AADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2CAB5B542C3E980500B3AADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CAB5B572C3E980500B3AADC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		2CAB5B442C3E980200B3AADC = {
 			isa = PBXGroup;
 			children = (
-				2CAB5B4F2C3E980200B3AADC /* Chapter1 */,
+				2CAB5B4F2C3E980200B3AADC /* Landmarks */,
 				2CAB5B4E2C3E980200B3AADC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,22 +59,22 @@
 		2CAB5B4E2C3E980200B3AADC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CAB5B4D2C3E980200B3AADC /* Chapter1.app */,
+				2CAB5B4D2C3E980200B3AADC /* Landmarks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CAB5B4F2C3E980200B3AADC /* Chapter1 */ = {
+		2CAB5B4F2C3E980200B3AADC /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				2CAB5B502C3E980200B3AADC /* Chapter1App.swift */,
+				2CAB5B502C3E980200B3AADC /* LandmarksApp.swift */,
 				2CAB5B662C3E9F7900B3AADC /* Models */,
 				2CAB5B632C3E9EEB00B3AADC /* Resources */,
 				2CAB5B5E2C3E9AF000B3AADC /* View */,
 				2CAB5B542C3E980500B3AADC /* Assets.xcassets */,
 				2CAB5B562C3E980500B3AADC /* Preview Content */,
 			);
-			path = Chapter1;
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		2CAB5B562C3E980500B3AADC /* Preview Content */ = {
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CAB5B4C2C3E980200B3AADC /* Chapter1 */ = {
+		2CAB5B4C2C3E980200B3AADC /* Landmarks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CAB5B5B2C3E980500B3AADC /* Build configuration list for PBXNativeTarget "Chapter1" */;
+			buildConfigurationList = 2CAB5B5B2C3E980500B3AADC /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
 				2CAB5B492C3E980200B3AADC /* Sources */,
 				2CAB5B4A2C3E980200B3AADC /* Frameworks */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = Chapter1;
+			name = Landmarks;
 			productName = Chapter1;
-			productReference = 2CAB5B4D2C3E980200B3AADC /* Chapter1.app */;
+			productReference = 2CAB5B4D2C3E980200B3AADC /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CAB5B482C3E980200B3AADC /* Build configuration list for PBXProject "Chapter1" */;
+			buildConfigurationList = 2CAB5B482C3E980200B3AADC /* Build configuration list for PBXProject "Landmarks" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CAB5B4C2C3E980200B3AADC /* Chapter1 */,
+				2CAB5B4C2C3E980200B3AADC /* Landmarks */,
 			);
 		};
 /* End PBXProject section */
@@ -188,7 +188,7 @@
 			files = (
 				2CAB5B532C3E980200B3AADC /* ContentView.swift in Sources */,
 				2CAB5B622C3E9C6F00B3AADC /* MapView.swift in Sources */,
-				2CAB5B512C3E980200B3AADC /* Chapter1App.swift in Sources */,
+				2CAB5B512C3E980200B3AADC /* LandmarksApp.swift in Sources */,
 				2CAB5B702C3EA50500B3AADC /* LandmarkList.swift in Sources */,
 				2CAB5B722C3EA5F400B3AADC /* LandMarkDetail.swift in Sources */,
 				2CAB5B602C3E9B0C00B3AADC /* CircleImage.swift in Sources */,
@@ -327,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chapter1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = 899UYL8QU3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -356,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chapter1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = 899UYL8QU3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -381,7 +381,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CAB5B482C3E980200B3AADC /* Build configuration list for PBXProject "Chapter1" */ = {
+		2CAB5B482C3E980200B3AADC /* Build configuration list for PBXProject "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CAB5B592C3E980500B3AADC /* Debug */,
@@ -390,7 +390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CAB5B5B2C3E980500B3AADC /* Build configuration list for PBXNativeTarget "Chapter1" */ = {
+		2CAB5B5B2C3E980500B3AADC /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CAB5B5C2C3E980500B3AADC /* Debug */,

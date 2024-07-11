@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/imhyeongyu/Desktop/2024/SwiftUI-Practice/Chapter1/Landmarks.xcodeproj">
    </FileRef>
 </Workspace>
