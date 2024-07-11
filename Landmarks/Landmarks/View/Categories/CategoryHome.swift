@@ -1,0 +1,25 @@
+//
+//  CategoryHome.swift
+//  Landmarks
+//
+//  Created by 임현규 on 7/11/24.
+//
+
+import SwiftUI
+
+struct CategoryHome: View {
+    var body: some View {
+        
+        NavigationSplitView {
+            Text("Hello, World!")
+                .navigationTitle("Featured")
+        } detail: {
+            Text("Select a Landmark")
+        }
+
+    }
+}
+
+#Preview {
+    CategoryHome()
+}
